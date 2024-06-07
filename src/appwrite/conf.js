@@ -124,3 +124,8 @@ export class Service {
     }
 
 }
+
+
+const Service = new Service
+
+export default Service
