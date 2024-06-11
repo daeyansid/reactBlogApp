@@ -9,6 +9,9 @@ import Input from "./input"
 import select from "./select"
 import RTE from "./rte"
 import postForm from "./post-form/postForm"
+import signUp from "./signUp"
+import Login from "./login"
+import Protected from './authLayout'
 
 export {
     Header,
@@ -21,5 +24,8 @@ export {
     select,
     PostCard,
     RTE,
-    postForm
+    postForm,
+    signUp,
+    Login,
+    Protected
 }
